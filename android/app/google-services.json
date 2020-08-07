@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088182555169",
+    "firebase_url": "https://empregaouro.firebaseio.com",
+    "project_id": "empregaouro",
+    "storage_bucket": "empregaouro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088182555169:android:e3e4721ed60795caa8c960",
+        "android_client_info": {
+          "package_name": "com.cold.empregaOuro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088182555169-pjtnrma0mh5ptm77lh6f3hf8ohn95in3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBusY2AQaxtytXfdxIUQDF62Noc1HjIKnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088182555169-pjtnrma0mh5ptm77lh6f3hf8ohn95in3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
