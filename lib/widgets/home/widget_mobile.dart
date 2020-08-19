@@ -52,7 +52,9 @@ class WidgetMobile extends StatelessWidget {
                               crossAxisSpacing: 0,
                               childAspectRatio: w > 1300
                                   ? 2
-                                  : w > 1000 ? 1.5 : w > 550 && w < 750 ? 3 : 2,
+                                  : w > 1000
+                                      ? 1.5
+                                      : w > 550 && w < 750 ? 3 : 1.8,
                             ),
                             itemCount: snapshot.data.documents.length,
                             itemBuilder: (context, index) {

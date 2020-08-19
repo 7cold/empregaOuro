@@ -221,7 +221,7 @@ class WidgetDesktop extends StatelessWidget {
                                                 mainAxisSpacing: 0,
                                                 crossAxisSpacing: 0,
                                                 childAspectRatio: w > 1300
-                                                    ? 2
+                                                    ? 1.9
                                                     : w > 1000
                                                         ? 1.5
                                                         : w > 550 && w < 750

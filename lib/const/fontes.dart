@@ -257,6 +257,31 @@ TextStyle fontRegular25White = TextStyle(
   fontSize: 25,
 );
 
+TextStyle fontRegular20White = TextStyle(
+  fontFamily: fontRegular,
+  color: Colors.white,
+  fontSize: 20,
+);
+
+TextStyle fontRegular18White = TextStyle(
+  fontFamily: fontRegular,
+  color: Colors.white,
+  fontSize: 18,
+  shadows: [
+    Shadow(
+      color: Colors.black.withOpacity(0.6),
+      offset: Offset(-1, -1),
+      blurRadius: 8,
+    ),
+  ],
+);
+
+TextStyle fontRegular16White = TextStyle(
+  fontFamily: fontRegular,
+  color: Colors.white,
+  fontSize: 16,
+);
+
 //light
 
 TextStyle fontLight18White = TextStyle(

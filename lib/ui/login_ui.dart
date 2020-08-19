@@ -76,6 +76,24 @@ class _LoginUiState extends State<LoginUi> {
             children: _list,
             controller: _controller,
           ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image.asset(
+                'assets/images/logo.png',
+                scale: 20,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 70),
+                child: Text(
+                  "A melhor maneira de encontrar e oferecer empregos na cidade de Ouro Fino e região.",
+                  style: fontRegular18White,
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ],
+          ),
           Positioned(
             bottom: 100,
             child: SizedBox(

@@ -340,6 +340,7 @@ alertAddItemVaga(BuildContext context) {
                           'beneficios': beneficios.value,
                           'atividades': atividades.text,
                           'empresaId': c.firebaseUser.value.uid,
+                          'empresaNome': c.userData['nome'],
                           'data': Timestamp.fromDate(DateTime.now()),
                         }, c.firebaseUser.value.uid, setor.text).then(
                           (value) {

@@ -3,6 +3,7 @@ import 'package:date_format/date_format.dart';
 import 'package:empregaOuro/const/colors.dart';
 import 'package:empregaOuro/const/fontes.dart';
 import 'package:empregaOuro/controller/user_controller.dart';
+import 'package:empregaOuro/ui/meus_interesses_ui.dart';
 import 'package:empregaOuro/widgets/profile/item_alert_enterprise_vaga.dart';
 import 'package:empregaOuro/widgets/profile/item_alert_school.dart';
 import 'package:empregaOuro/widgets/profile/item_enterprise.dart';
@@ -130,6 +131,25 @@ class ProfileUi extends StatelessWidget {
                   ),
                 ),
               ),
+              c.userData.value['tipo'] == "user"
+                  ? Padding(
+                      padding: EdgeInsets.fromLTRB(
+                        w > 1200 ? w / 4 : 20,
+                        0,
+                        w > 1200 ? w / 4 : 20,
+                        20,
+                      ),
+                      child: SizedBox(
+                        width: Get.width,
+                        child: CupertinoButton(
+                            color: Color(corSecundaria2),
+                            child: Text("Meus Interesses"),
+                            onPressed: () {
+                              Get.to(MeusInteressesUi());
+                            }),
+                      ),
+                    )
+                  : SizedBox(),
               c.userData.value['tipo'] == "user"
                   ? Padding(
                       padding: EdgeInsets.fromLTRB(

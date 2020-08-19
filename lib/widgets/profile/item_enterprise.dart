@@ -28,20 +28,20 @@ class ItemEnterpriseVaga extends StatelessWidget {
       padding: EdgeInsets.only(bottom: 10),
       child: Stack(
         children: [
-          Positioned(
-            top: 0,
-            right: 0,
-            child: IconButton(
-              icon: Icon(
-                CupertinoIcons.delete,
-                color: CupertinoColors.systemGrey2,
-              ),
-              onPressed: () {
-                c.removeVaga(
-                    c.firebaseUser.value.uid, vaga.id, docUser.data['setor']);
-              },
-            ),
-          ),
+          // Positioned(
+          //   top: 0,
+          //   right: 0,
+          //   child: IconButton(
+          //     icon: Icon(
+          //       CupertinoIcons.delete,
+          //       color: CupertinoColors.systemGrey2,
+          //     ),
+          //     onPressed: () {
+          //       c.removeVaga(
+          //           c.firebaseUser.value.uid, vaga.id, docUser.data['setor']);
+          //     },
+          //   ),
+          // ),
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
